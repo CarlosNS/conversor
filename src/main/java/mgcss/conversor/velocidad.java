@@ -7,7 +7,26 @@
 package mgcss.conversor;
 
 public class velocidad {
-   public double millasxsAkm(double millasxs){
-       return millasxs;
+   static public double millasxsAkm(double x){
+       return x*1.61;
+   }
+   static public double millasxhAkm(double x){
+       return x*(4.47*(double) Math.pow(10, -4));
+   }
+   
+   static public double piesxsAkm(double x){
+       return x*(3.05*(double) Math.pow(10, -4));
+   }
+   static public double nudosAkm(double x){
+       return x*(5.14*(double) Math.pow(10, -4));
+   }
+   static public float vluzAkm(float x){
+       return (float)(x*299792.46);
+   }
+   static public double caminataAkm(double x){
+       return x*(1.7*(double)Math.pow(10, -3));
+   }
+   static public double caracolAkm(double x){
+       return x*(double)Math.pow(10, -6);
    }
 }
