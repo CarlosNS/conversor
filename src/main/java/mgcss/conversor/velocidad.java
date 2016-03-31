@@ -7,5 +7,7 @@
 package mgcss.conversor;
 
 public class velocidad {
-   // TODO resto de métodos 
+   public double millasxsAkm(double millasxs){
+       return millasxs;
+   }
 }
